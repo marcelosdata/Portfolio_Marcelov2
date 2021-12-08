@@ -215,7 +215,7 @@
               you like what you see and have a project you need coded, don’t
               hestiate to contact me.
             </p>
-            <button class="btn about-btn">Get my Resume</button>
+            <button class="btn about-btn" type="submit">Get my Resume</button>
           </div>
           <hr />
         </section>
@@ -251,7 +251,6 @@
               </ul>
             </div>
           </div>
-
           <div class="skills-macro">
             <div class="key-skills">
               <img src="src/Rectangle-56.svg" alt="round icon" />
@@ -269,6 +268,79 @@
           </div>
         </section>
       </section>
+
+      <!-- starts forms section -->
+      <footer class="form-section">
+        <div class="form-a">
+          <h2 class="form-desc">
+            I'm always interested in hearing about new projects, so if you'd
+            like to chat please get in touch.
+          </h2>
+
+          <form
+            action="https://formspree.io/f/xbjwrppl"
+            method="POST"
+            id="my-form"
+          >
+            <input
+              type="text"
+              id="name"
+              name="user_name"
+              placeholder="Full Name"
+              maxlength="30"
+              required
+            />
+
+            <input
+              type="email"
+              id="email"
+              placeholder="Email address"
+              name="user_email"
+              required
+            />
+
+            <textarea
+              name="message"
+              id="msg"
+              placeholder="Enter text here"
+              maxlength="500"
+              required
+            ></textarea>
+
+            <button type="submit" class="btn btn-center">Get In touch</button>
+          </form>
+        </div>
+        <hr />
+        <div class="icon-form">
+          <ul>
+            <li>
+              <a href="#"
+                ><img src="src/github-dark.svg" alt="github logo dark "
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img src="src/Linkedin-dark.svg" alt="linkedin logo dark "
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img src="src/Angellist-dark.svg" alt="angel list dark"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img src="src/Twitter-dark.svg" alt=" twitter logo dark"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img src="src/Medium-dark.svg" alt="medium logo dark "
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
