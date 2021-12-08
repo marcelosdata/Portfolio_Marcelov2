@@ -2,9 +2,9 @@
 
 :root {
   /* colors */
-  --primary-color: #FF6B00 ;
-  --secundary-color: #1C1A19 ;
-  --header-color:#3C3A39;
+  --primary-color: #ff6b00;
+  --secundary-color: #1c1a19;
+  --header-color: #3c3a39;
 }
 
 * {
@@ -29,7 +29,7 @@ ul {
   list-style: none;
 }
 
- a {
+a {
   text-decoration: none;
 }
 
@@ -37,7 +37,7 @@ ul {
   cursor: pointer;
   display: inline-block;
   font-weight: bold;
-  background-color: #ff6b00;
+  background-color: var(--primary-color);
   border: solid 1px #fff;
   color: #fff;
   font-size: 17px;
@@ -75,7 +75,6 @@ ul {
   color: #fff;
 }
 
-
 .nav-items {
   display: none;
   /* waiting responsive design */
@@ -99,17 +98,17 @@ ul {
 }
 
 .section-container {
-  margin-inline: 2.4rem
+  margin-inline: 2.4rem;
 }
 
 .section-container h1 {
-  color:var(--primary-color);
-  font-family: "Crete Round",sans-serif;
+  color: var(--primary-color);
+  font-family: "Crete Round", sans-serif;
   font-size: 5.6rem;
   line-height: 6.4rem;
   letter-spacing: 0.37px;
   font-weight: 400;
-  margin-top: 12rem ;
+  margin-top: 12rem;
 }
 
 .section-container h2 {
@@ -120,7 +119,7 @@ ul {
   display: flex;
   align-items: center;
   color: #fff5e1;
-  font-weight: 700 ;
+  font-weight: 700;
   align-items: center;
   margin-bottom: 1.2rem;
 }
@@ -167,7 +166,7 @@ ul {
   font-size: 4rem;
   line-height: 5.2rem;
   align-items: center;
-  color:#1C1A19;
+  color: #1c1a19;
   margin-block: 120px 24px;
   font-weight: 400;
 }
@@ -189,7 +188,6 @@ ul {
   display: grid;
   box-sizing: border-box;
   align-items: center;
-  /* width: 100%; */
   justify-content: center;
   grid-template-columns: repeat(auto-fit, minmax(36rem, 1fr));
   grid-auto-rows: minmax(38rem, auto);
@@ -218,16 +216,17 @@ ul {
 }
 
 .others .info {
-width: 90%;
+  width: 90%;
 }
 
-.others h3, .others ul, .others p {
+.others h3,
+.others ul,
+.others p {
   margin-inline: 1.6rem;
 }
 
-
 .others img {
-  position:absolute;
+  position: absolute;
   z-index: -1;
   object-fit: cover;
   height: 100%;
@@ -244,7 +243,6 @@ width: 90%;
   z-index: 2;
   margin-top: 8.4rem;
   font-weight: 400;
-
 }
 
 .others .feat-text {
@@ -252,10 +250,9 @@ width: 90%;
   line-height: 2.4rem;
   color: #fff;
   z-index: 1;
-  text-align  : start;
+  text-align: start;
   margin-top: 1.2rem;
   width: 80%;
-
 }
 
 .others .btn {
@@ -291,7 +288,7 @@ width: 90%;
 .feature-details .info {
   width: 90%;
   justify-content: center;
-  align-items:flex-start;
+  align-items: flex-start;
   margin-inline: 2.4rem;
   text-align: start;
 }
@@ -323,7 +320,7 @@ width: 90%;
   font-size: 1.5rem;
   line-height: 2rem;
   margin-right: 1.2rem;
-  padding: 1.0rem 1.2rem;
+  padding: 1rem 1.2rem;
 }
 
 .feature-details .tech-stack {
@@ -346,7 +343,7 @@ width: 90%;
 }
 
 .others .tech-stack li {
-  color:#fff;
+  color: #fff;
   background: rgba(255, 255, 255, 0.24);
   margin-bottom: 1rem;
 }
@@ -362,9 +359,9 @@ width: 90%;
 .about-section {
   background-repeat: no-repeat;
   background-image: url(src/Group.svg);
-  background-color:var(--secundary-color);
+  background-color: var(--secundary-color);
   background-size: auto;
-  background-position: right 90% ;
+  background-position: right 90%;
   display: flex;
   box-sizing: border-box;
   flex-direction: column;
@@ -393,7 +390,7 @@ width: 90%;
   font-size: 1.6rem;
   line-height: 2.4rem;
   font-weight: 400;
-  color:#F4F5F7;
+  color: #f4f5f7;
   margin-bottom: 2.4rem;
 }
 
@@ -468,8 +465,8 @@ width: 90%;
   font-weight: 700;
   line-height: 4.4rem;
   font-size: 3.2rem;
-  text-align:center;
-  color:#172B4D;
+  text-align: center;
+  color: #172b4d;
   width: 84%;
   margin-inline: 2.4rem;
   align-content: center;
@@ -482,7 +479,8 @@ width: 90%;
   width: 100%;
 }
 
-input,textarea {
+input,
+textarea {
   margin-left: 2.4rem;
 }
 
@@ -493,7 +491,7 @@ input {
   border-inline-style: none;
   padding: 1.2rem;
   font-size: 1.5rem;
-  margin-top: 3.0rem;
+  margin-top: 3rem;
   color: #979493;
 }
 
@@ -504,7 +502,7 @@ textarea {
   color: #3c3a39;
   resize: vertical;
   background-color: #fbf8f7;
-  margin-top: 3.0rem;
+  margin-top: 3rem;
   border: none;
   width: 92%;
   height: 11.4rem;
@@ -533,4 +531,3 @@ textarea {
   display: flex;
   justify-content: space-around;
 }
-
