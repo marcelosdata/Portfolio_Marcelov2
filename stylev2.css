@@ -108,8 +108,7 @@ ul {
   font-size: 5.6rem;
   line-height: 6.4rem;
   letter-spacing: 0.37px;
-  font-weight: 400 ;
-  padding:1rem;
+  font-weight: 400;
   margin-top: 12rem ;
 }
 
@@ -435,6 +434,13 @@ width: 90%;
   align-items: center;
   margin-bottom: 2.2rem;
 }
+
+.key-skills h3 {
+  padding-left: 1rem;
+}
+
+
+
 
 .skills-feat {
   display: flex;
