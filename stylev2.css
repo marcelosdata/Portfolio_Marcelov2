@@ -450,4 +450,87 @@ width: 90%;
   text-align: center;
 }
 
+/* Start Form Section */
+
+.form-section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form-a {
+  display: flex;
+  flex-direction: column;
+  margin-top: 12rem;
+}
+
+.form-desc {
+  font-weight: 700;
+  line-height: 4.4rem;
+  font-size: 3.2rem;
+  text-align:center;
+  color:#172B4D;
+  width: 84%;
+  margin-inline: 2.4rem;
+  align-content: center;
+}
+
+.form-section form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+input,textarea {
+  margin-left: 2.4rem;
+}
+
+input {
+  width: 90%;
+  height: 2rem;
+  border-top-style: none;
+  border-inline-style: none;
+  padding: 1.2rem;
+  font-size: 1.5rem;
+  margin-top: 3.0rem;
+  color: #979493;
+}
+
+textarea {
+  padding: 0.7rem;
+  font-size: 1.5rem;
+  line-height: 2.4rem;
+  color: #3c3a39;
+  resize: vertical;
+  background-color: #fbf8f7;
+  margin-top: 3.0rem;
+  border: none;
+  width: 92%;
+  height: 11.4rem;
+}
+
+.btn-center {
+  display: block;
+  margin: 0 auto;
+  margin-top: 3rem;
+  margin-bottom: 12.4rem;
+}
+
+.form-section hr {
+  width: 100%;
+}
+
+.icon-form {
+  width: 100%;
+  margin-block: 2.7rem;
+}
+
+.icon-form ul {
+  padding: 0;
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
 
