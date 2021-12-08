@@ -283,6 +283,8 @@ a {
 
 }
 
+/* Cards myWorks Section */
+
 .works-section-a {
   display: flex;
   flex-direction: column;
@@ -447,10 +449,34 @@ a {
   margin-right: 1.2rem;
 }
 
+.feature-details img {
+  width: 90%;
+}
+
 .others .tech-stack li {
   color: #fff;
   background: rgba(255, 255, 255, 0.24);
   margin-bottom: 1rem;
+}
+
+
+
+@media screen and (min-width:992px) {
+  
+  .wrapper {
+    grid-auto-rows: minmax(50rem, auto);
+  }
+
+  .feature-details {
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+  }
+
+.feat-text {
+  margin: 0;
+}
+
 }
 
 /* Start About Section */
