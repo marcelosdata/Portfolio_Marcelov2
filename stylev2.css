@@ -77,7 +77,6 @@ a {
 
 .nav-items {
   display: none;
-  /* waiting for responsive design */
 }
 
 /* Starts Hero Section  */
@@ -113,14 +112,12 @@ a {
 
 .section-container h2 {
   font-family: "Roboto", sans-serif;
-  font-weight: bold;
   font-size: 2.4rem;
   line-height: 3.2rem;
   display: flex;
   align-items: center;
   color: #fff5e1;
   font-weight: 700;
-  align-items: center;
   margin-bottom: 1.2rem;
 }
 
@@ -194,6 +191,10 @@ a {
   gap: 2.4rem;
 }
 
+.others {
+  position: relative;
+}
+
 .wrapper .others {
   margin-left: 2rem;
 }
@@ -211,8 +212,17 @@ a {
   align-items: baseline;
 }
 
-.others {
-  position: relative;
+.feat-text {
+  height: auto;
+  font-size: 16px;
+  line-height: 24px;
+  color: #091e42;
+  margin-bottom: 1.2rem;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
 }
 
 .others .info {
@@ -280,25 +290,12 @@ a {
   font-weight: 400;
 }
 
-.info {
-  display: flex;
-  flex-direction: column;
-}
-
 .feature-details .info {
   width: 90%;
   justify-content: center;
   align-items: flex-start;
   margin-inline: 2.4rem;
   text-align: start;
-}
-
-.feat-text {
-  height: auto;
-  font-size: 16px;
-  line-height: 24px;
-  color: #091e42;
-  margin-bottom: 1.2rem;
 }
 
 .tech-stack {
