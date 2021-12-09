@@ -462,7 +462,7 @@ a {
 
 
 @media screen and (min-width:992px) {
-  
+
   .wrapper {
     grid-auto-rows: minmax(50rem, auto);
   }
@@ -484,13 +484,13 @@ a {
 .about-container {
   display: flex;
   flex-direction: column;
-  background-color: #1c1a19;
+  /* background-color: #1c1a19; */
+  background-color: var(--secundary-color);
 }
 
 .about-section {
   background-repeat: no-repeat;
   background-image: url(src/Group.svg);
-  background-color: var(--secundary-color);
   background-size: auto;
   background-position: right 90%;
   display: flex;
@@ -527,6 +527,33 @@ a {
 
 .about-container .btn {
   margin-bottom: 22.1rem;
+}
+
+@media screen and (min-width:992px) {
+
+  .about-container {
+    background-color: #262626;
+  }
+
+  .about-section {
+    background-image: url(src/Frame-about-section.svg);
+    background-repeat: no-repeat;
+    background-position: right 0%;
+    background-size: 50%;
+    justify-content: start;
+    align-items: start;
+  }
+
+  .about-1 {
+    width: 50%;
+    margin-left: 14rem;
+  }
+
+  .about-1 p {
+    width: 70%;
+  }
+
+  /* border */
 }
 
 /* skills sub section */
@@ -576,6 +603,28 @@ a {
   line-height: 4.3rem;
   align-items: baseline;
   text-align: center;
+}
+
+@media screen and (min-width: 992px) {
+  .skills {
+    display: flex;
+    flex-direction: row;
+    /* grid-template-rows: repeat(3,1fr); */
+    justify-content: space-evenly;
+    align-items: baseline;
+  }
+
+  .skills-macro {
+    justify-content: baseline;
+    align-items: flex-start;
+  }
+
+  .skills-feat li {
+    text-align: left;
+    align-content: flex-start;
+    align-items: flex-start;
+    margin-left: 3rem;
+  }
 }
 
 /* Start Form Section */
@@ -661,4 +710,36 @@ textarea {
   margin: 0 auto;
   display: flex;
   justify-content: space-around;
+}
+
+@media screen and (min-width: 992px) {
+  .form-a {
+  flex-direction: row;
+  width: 90%;
+  align-content: flex-start;
+  padding-top: 2rem;
+  /* height: 50%; */
+  }
+
+  .form-desc {
+    width: 40%;
+    /* align-content: flex-start; */
+    text-align:left;
+    color: #262626;
+    padding-top: 2rem;
+  }
+
+  #my-form {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    align-content: start;
+  }
+
+  .btn-center {
+    display: block;
+    margin: 0;
+    margin: 2.4rem 0 12.4rem 2.4rem;
 }
