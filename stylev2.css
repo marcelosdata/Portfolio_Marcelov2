@@ -438,12 +438,6 @@ a {
   margin-bottom: 1.2rem;
 }
 
-.feature-details .tech-stack li:hover {
-  background-color: rgb(57, 34, 207);
-  color:#fff;
-}
-
-
 .feature-details .tech-stack li {
   cursor: pointer;
   display: inline-block;
@@ -460,6 +454,11 @@ a {
   color: #fff;
   background: rgba(255, 255, 255, 0.24);
   margin-bottom: 1rem;
+}
+
+.feature-details .tech-stack li:hover {
+  background-color: rgb(57, 34, 207);
+  color: #fff;
 }
 
 .grid-others {
