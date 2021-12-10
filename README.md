@@ -4,17 +4,7 @@ My Portfolio of Web Development
 
 > Project created for my first mobile version of my Portfolio
 
-![screenshot](src/portfolio_mobile_marcelo.png)
-![screenshot](src/My-recent-works.png)
-![screenshot](src/Grid-projects.png)
-![screenshot](src/about-me.png)
-![screenshot](src/skills-frameworks.png)
-![screenshot](src/header-desktop.png)
-![screenshot](src/Recent-works-desktop.png)
-![screenshot](src/Works-grid-desktop.png)
-![screenshot](src/about-me desktop.png)
-![screenshot](src/skills-desktop.png)
-![screenshot](src/forms-dektop.png)
+![Preview](src/preview-portfolio.gif)
 
 This project is an asset because it will set the foundations of my web development journey.
 
@@ -24,7 +14,7 @@ This project is an asset because it will set the foundations of my web developme
 
 To get a local copy up and running follow these simple steps.
 
-- You can clone this repo by typing `git clone https://github.com/marcelosdata/Portfolio-MY21-Marcelo.git`
+- You can clone this repo by typing `git clone https://github.com/marcelosdata/Portfolio_Marcelov2`
 
 - Type `cd marcelo-portfolio` to access the project on the terminal
 
@@ -50,6 +40,7 @@ Contributions, issues, and feature requests are welcome!
 
 ### List of Contribuitors
 -Kyrillos Hany [@Bondok6](https://github.com/Bondok6/)
+-Juda Teixeira [@mrjuda](https://github.com/mrjuda)
 
 ## 📝 License
 
