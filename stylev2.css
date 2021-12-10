@@ -191,7 +191,6 @@ a {
     flex-direction: row-reverse;
     width: 60vw;
     margin-top: 18rem;
-    /* margin-top: 25rem; */
   }
 
   .icon ul {
@@ -259,7 +258,6 @@ a {
     justify-content: center;
     align-items: center;
     align-content: center;
-    /* width: 80%; */
     text-align: start;
     margin-bottom: 8rem;
   }
@@ -295,7 +293,6 @@ a {
 
 .others {
   position: relative;
-  /* height: 100%; */
 }
 
 .feature {
@@ -393,7 +390,6 @@ a {
   width: 90%;
   justify-content: center;
   align-items: flex-start;
-  /* margin-inline: 2.4rem; */
   text-align: start;
 }
 
@@ -438,10 +434,6 @@ a {
   margin-right: 1.2rem;
 }
 
-.feature-details img {
-  width: 90%;
-}
-
 .others .tech-stack li {
   color: #fff;
   background: rgba(255, 255, 255, 0.24);
@@ -480,7 +472,6 @@ a {
     align-content: center;
     align-items: flex-start;
     grid-column: 1 / span 2;
-    /* align-items: center; */
   }
 
   .feature-details .info {
@@ -633,7 +624,6 @@ a {
     justify-content: center;
     margin: 0 auto;
   }
-  /* border */
 }
 
 /* skills sub section */
@@ -694,7 +684,6 @@ a {
   }
 
   .skills-macro {
-    justify-content: baseline;
     align-items: flex-start;
   }
 
@@ -797,7 +786,6 @@ textarea {
     width: 90%;
     align-content: flex-start;
     padding-top: 2rem;
-    /* height: 50%; */
   }
 
   .form-desc {
