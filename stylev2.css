@@ -141,8 +141,12 @@ a {
 }
 
 @keyframes to-right {
-  from {margin-left: -30rem;}
-  to {margin-left: 0;} 
+  from {
+    margin-left: -30rem;
+  }
+  to {
+    margin-left: 0;
+  }
 }
 
 .section-container h2 {
@@ -434,6 +438,12 @@ a {
   margin-bottom: 1.2rem;
 }
 
+.feature-details .tech-stack li:hover {
+  background-color: rgb(57, 34, 207);
+  color:#fff;
+}
+
+
 .feature-details .tech-stack li {
   cursor: pointer;
   display: inline-block;
@@ -443,6 +453,7 @@ a {
   font-size: 1.5rem;
   line-height: 2rem;
   margin-right: 1.2rem;
+  transition: 1s ease-in-out;
 }
 
 .others .tech-stack li {
