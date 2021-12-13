@@ -137,6 +137,17 @@ a {
   letter-spacing: 0.37px;
   font-weight: 400;
   margin-top: 12rem;
+  animation: to-right 2s, ease-in;
+}
+
+@keyframes to-right {
+  from {
+    margin-left: -30rem;
+  }
+
+  to {
+    margin-left: 0;
+  }
 }
 
 .section-container h2 {
@@ -375,6 +386,11 @@ a {
   max-width: 32rem;
   margin: 0 auto;
   height: auto;
+  transition: 1s ease-in-out;
+}
+
+.feature-details img:hover {
+  transform: scale(1.1);
 }
 
 .feature-details h3 {
@@ -432,12 +448,18 @@ a {
   font-size: 1.5rem;
   line-height: 2rem;
   margin-right: 1.2rem;
+  transition: 1s ease-in-out;
 }
 
 .others .tech-stack li {
   color: #fff;
   background: rgba(255, 255, 255, 0.24);
   margin-bottom: 1rem;
+}
+
+.feature-details .tech-stack li:hover {
+  background-color: rgb(57, 34, 207);
+  color: #fff;
 }
 
 .grid-others {
