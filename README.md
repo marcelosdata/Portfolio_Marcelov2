@@ -10,6 +10,10 @@ This project is an asset because it will set the foundations of my web developme
 
 - Showcase abilities, languages, frameworks of diverse and interest projects for reference with anyone in the World.
 
+## Live Demo
+
+[Marcelo's Portfolio](https://marcelosdata.github.io/Portfolio_Marcelov2/)
+
 ## Getting Started
 
 To get a local copy up and running follow these simple steps.
@@ -39,8 +43,8 @@ To get a local copy up and running follow these simple steps.
 Contributions, issues, and feature requests are welcome!
 
 ### List of Contribuitors
--Kyrillos Hany [@Bondok6](https://github.com/Bondok6/)
--Juda Teixeira [@mrjuda](https://github.com/mrjuda)
+- Kyrillos Hany [@Bondok6](https://github.com/Bondok6/)
+- Juda Teixeira [@mrjuda](https://github.com/mrjuda)
 
 ## 📝 License
 
