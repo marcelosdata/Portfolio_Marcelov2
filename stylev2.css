@@ -355,7 +355,7 @@ a {
   color: #fff;
   flex: none;
   text-align: start;
-  z-index: 2;
+  z-index: 6;
   margin-top: 8.4rem;
   font-weight: 400;
 }
@@ -364,7 +364,7 @@ a {
   font-size: 1.6rem;
   line-height: 2.4rem;
   color: #fff;
-  z-index: 1;
+  z-index: 5;
   text-align: start;
   margin-top: 1.2rem;
   width: 80%;
