@@ -9,15 +9,20 @@
       rel="stylesheet"
     />
     <link href="stylev2.css" rel="stylesheet" />
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id='G-EMY9149ER5"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){window.dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id='G-EMY9149ER5"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        window.dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-  gtag('config', 'G-EMY9149ER5');
-</script>
+      gtag("config", "G-EMY9149ER5");
+    </script>
   </head>
 
   <body>
@@ -219,7 +224,10 @@
 
               <!-- starts grid desktop version -->
               <div class="projects others desktop-other first-other">
-                <img src="src/Img-Placeholder-clear-v2.svg" alt="Portfolio Image" />
+                <img
+                  src="src/Img-Placeholder-clear-v2.svg"
+                  alt="Portfolio Image"
+                />
                 <div class="info">
                   <button class="btn" type="submit">See Project</button>
                 </div>
@@ -394,7 +402,7 @@
             method="POST"
             id="my-form"
           >
-          
+            <label for="name"></label>
             <input
               type="text"
               id="name"
@@ -402,8 +410,8 @@
               placeholder="Full Name"
               maxlength="30"
               required
-            /> 
-
+            />
+            <label for="email"></label>
             <input
               type="email"
               id="email"
@@ -412,6 +420,7 @@
               required
             />
 
+            <label for="msg"></label>
             <textarea
               name="message"
               id="msg"
