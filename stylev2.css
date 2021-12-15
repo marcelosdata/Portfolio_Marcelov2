@@ -36,11 +36,11 @@ a {
 .btn {
   cursor: pointer;
   display: inline-block;
-  font-weight: bold;
+  font-weight: 700;
   background-color: var(--primary-color);
   border: solid 1px #fff;
   color: #fff;
-  font-size: 17px;
+  font-size: 2rem;
   line-height: 24px;
   text-align: center;
   border-style: none;
@@ -49,11 +49,11 @@ a {
 }
 
 .btn:hover {
-  opacity: 0.8;
-  background-color: #fff5e1;
+  opacity: 0.9;
+  background-color: #FFF5E1;
   color: #f55800;
   border: 1px solid #f55800;
-  border-style: none;
+  font-weight: 700;
 }
 
 /* Starts Header Section */
